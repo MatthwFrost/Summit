@@ -22,7 +22,6 @@ app = Flask(__name__)
 api = Api(app)
 
 # The ID and range of reminder spreadsheet.
-#SPREADSHEET_ID = '1FSo-4gM_2KGLDm_3EuCffY4-9gcQHtchhf4rPd626JM'
 SPREADSHEET_ID = os.environ.get('SPREADSHEET')
 RANGE_NAME = 'Sheet1!A:C'
 DATE_FORMAT = '%Y-%m-%d'
