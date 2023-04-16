@@ -21,7 +21,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # The ID and range of reminder spreadsheet.
-SPREADSHEET_ID = "ADD THIS IN"
+SPREADSHEET_ID = '1FSo-4gM_2KGLDm_3EuCffY4-9gcQHtchhf4rPd626JM'
 RANGE_NAME = 'Sheet1!A:C'
 DATE_FORMAT = '%Y-%m-%d'
 today = datetime.today().date()
@@ -32,7 +32,7 @@ def hello_world():
     return "<h1> Mirror Project </h1>\
             <p>Home page for the mirror project</p>\
             <p>API endpoints:</p>\
-            <br><p> <br>- /reminder <br># Get the revision reminders from the google sheet</p>", 200
+            <br><p> <br?- /reminder <br># Get the revision reminders from the google sheet</p>", 200
 
 @app.errorhandler(404)
 def page_not_found(e):
